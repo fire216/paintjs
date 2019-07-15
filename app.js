@@ -91,6 +91,7 @@ if(canvas){
     //마우스가 캔버스를 벗어났을 때
     canvas.addEventListener("mouseleave", stopPainting);
     canvas.addEventListener("click", handleCanvasClick);
+    //마우스 우클릭 눌렀을때 메뉴 뜨는거 방지
     canvas.addEventListener("contextmenu", handleCM);
 }
 
